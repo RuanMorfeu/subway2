@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "digitaldev-lx/laravel-eupago": "^2.2"
+    }
+}

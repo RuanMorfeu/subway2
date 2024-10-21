@@ -1,0 +1,40 @@
+{
+  "name": "digitaldev-lx/laravel-eupago",
+  "description": "A Laravel package for making payments through the EuPago API.",
+  "keywords": [
+    "eupago",
+    "referências multibanco",
+    "mb references",
+    "mbway references",
+    "laravel-eupago",
+    "laravel",
+    "codetech"
+  ],
+  "authors": [
+    {
+      "name": "DigitalDev",
+      "email": "geral@digitaldev.pt",
+      "role": "Development Team"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "laravel/framework": "^11.0",
+    "opcodesio/log-viewer": "^3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "DigitaldevLx\\LaravelEupago\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DigitaldevLx\\LaravelEupago\\Providers\\EuPagoServiceProvider"
+      ]
+    }
+  }
+}
